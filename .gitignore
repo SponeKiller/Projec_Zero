@@ -1,0 +1,8 @@
+
+project_zero/Lib
+__pycache__
+venv/
+.env
+Lib
+project_zero/Scripts
+Include
