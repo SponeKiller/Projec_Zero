@@ -4,6 +4,6 @@ __pycache__
 venv/
 .env
 Lib
-project_zero/Scripts
+Scripts
 Include
-project_zero_heroku/
+
