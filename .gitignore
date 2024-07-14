@@ -1,9 +1,6 @@
 
 project_zero/Lib
 __pycache__
-venv/
+venv
 .env
-Lib
-Scripts
-Include
 
