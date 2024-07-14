@@ -14,20 +14,20 @@ class UserCreate(UserBase):
     password: str
     
     class Config:
-        orm_mode = True
+        from_attributes = True
     
 class UserCrtResponse(UserBase):
     id: int
     created_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class UserGet(UserBase):
     id: int
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class UserLogin(BaseModel):
@@ -52,14 +52,14 @@ class Post(ItemBase):
     owner: UserCreate
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class PostOut(BaseModel):
     Post: Post
     votes: int
     
     class Config:
-        orm_mode = True
+        from_attributes = True
         
 class Vote(BaseModel):
     post_id: int
