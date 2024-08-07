@@ -1,5 +1,5 @@
 import pytest
-from app.calculations import add, subtract, multiply, divide, BankAccount, InsufficientFunds
+from .calculations import add, subtract, multiply, divide, BankAccount, InsufficientFunds
 
 
 @pytest.fixture
