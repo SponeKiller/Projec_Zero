@@ -1,0 +1,37 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "React",
+      "author": "Facebook",
+      "url": "https://reactjs.org/",
+      "body": "React is a popular JavaScript library for building fast and interactive user interfaces. Developed by Facebook, it has become one of the most widely used tools for web development."
+    },
+    {
+      "id": "2",
+      "title": "Vue",
+      "author": "Evan You",
+      "url": "https://vuejs.org/",
+      "body": "Vue.js is a progressive JavaScript framework for building user interfaces. Created by Evan You, Vue is known for its simplicity and flexibility, making it a popular choice for developers."
+    },
+    {
+      "id": "3",
+      "title": "Angular",
+      "author": "Google",
+      "url": "https://angular.io/",
+      "body": "Angular is a full-featured JavaScript framework developed by Google. It provides a robust solution for building complex, scalable web applications, supporting both desktop and mobile platforms."
+    },
+    {
+      "id": "14bc",
+      "title": "Kokos",
+      "body": "nějaký text",
+      "author": "Google"
+    },
+    {
+      "id": "ffd0",
+      "title": "Kokos",
+      "body": "nějaký text",
+      "author": "Google"
+    }
+  ]
+}
